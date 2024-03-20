@@ -10,6 +10,12 @@
 			type="text/css"
 			href="styles.css" />
 		<title>Getting User Input</title>
+		<link
+			rel="stylesheet"
+			href="https://pyscript.net/releases/2024.3.1/core.css" />
+		<script
+			type="module"
+			src="https://pyscript.net/releases/2024.3.1/core.js"></script>
 	</head>
 	<body>
 		<div class="form-style-2">
@@ -40,6 +46,19 @@
 				<button type="submit">Submit</button>
 			</form>
 		</div>
+
+		<h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+		<p>Translate English into Pirate speak...</p>
+		<input
+			type="text"
+			id="english"
+			placeholder="Type English here..." />
+		<button py-click="translate_english">Translate</button>
+		<div id="output"></div>
+		<script
+			type="py"
+			src="./main.py"
+			config="./pyscript.json"></script>
 
 		<script src="main.js"></script>
 	</body>

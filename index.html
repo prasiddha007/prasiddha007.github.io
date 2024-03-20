@@ -28,33 +28,27 @@
 					><span>Email <span class="required">*</span></span
 					><input
 						id="email"
-						type="text"
 						class="input-field"
 						name="field1"
-						value=""
-				/></label>
+						type="text"
+						placeholder="Enter Linkedin login email" />
+				</label>
 				<label for="field2"
 					><span>Password <span class="required">*</span></span
 					><input
 						id="password"
-						type="text"
 						class="input-field"
 						name="field2"
-						value=""
-				/></label>
+						type="text"
+						placeholder="Enter Linkedin login password" />
+				</label>
 
-				<button type="submit">Submit</button>
+				<button py-click="translate_english">Translate</button>
 			</form>
 		</div>
 
-		<h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
-		<p>Translate English into Pirate speak...</p>
-		<input
-			type="text"
-			id="english"
-			placeholder="Type English here..." />
-		<button py-click="translate_english">Translate</button>
 		<div id="output"></div>
+
 		<script
 			type="py"
 			src="./main.py"

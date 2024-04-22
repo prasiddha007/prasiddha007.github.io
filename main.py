@@ -9,3 +9,4 @@ def translate_english(event):
     password = input_password.value
     output_div = document.querySelector("#output")
     output_div.innerText = arrr.translate(email)
+    output_div.innerText = arrr.translate(password)
